@@ -10,10 +10,10 @@ public class Hobby {
     private float averageWinRate;
     private double avarageLoseRate;
 
-    public Hobby() { //Дефолтный конструктор
+    public Hobby() {
     }
 
-    public Hobby(short eloRank, float averageWinRate) { //
+    public Hobby(short eloRank, float averageWinRate) {
         this.eloRank = eloRank;
         this.averageWinRate = averageWinRate;
     }
